@@ -1,3 +1,32 @@
 body {
-  background-color: #ff99ff;
+  background-color: #ffccff;
+}
+
+img {
+  width: 25%;
+  height: 25%;
+}
+
+div {
+  text-align: center;
+}
+
+
+p {
+  color: #ff33ff;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+span {
+  font-size: 12px;
+  position: absolute;
+  top: 50%;
+  left: 46%;  
+
+}
+
+.Psanicko {
+  width: 8%;
+  height: 8%;
 }

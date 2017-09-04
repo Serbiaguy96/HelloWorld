@@ -9,10 +9,22 @@
   <meta name="author" content="SitePoint">
 
   <link rel="stylesheet" href="css/styles.css?v=1.0">
-
+  <script type="text/javascript">
+    function showMessage(){
+      document.getElementById('zprava').style.display = 'block';
+    }
+  </script>
 </head>
 
 <body>
-  <script src="js/scripts.js"></script>
+  <div>
+    <img src="Happy-ann.png" alt="Šťastné dvouleté výročí bez problémů a bez trápení" align="middle"/>
+    <p>Šťastné dvouleté výročí bez problémů a bez trápení!!</p>
+    <img class="Psanicko" src="message.png" alt="Zprávička pro lepší den" onclick="showMessage()" />
+    <p>
+      <span>(Klikni na mě pro lepší den :))</span>
+    </p>
+    <p id="zprava" style="display:none">Ahoj Naty, přeju ti krásný den v práci a teď mi za to musíš poslat úsměv O:)</p>
+  </div>
 </body>
 </html>
